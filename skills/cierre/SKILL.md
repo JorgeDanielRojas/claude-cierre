@@ -1,6 +1,13 @@
-Cierre estructurado de sesión con persistencia de aprendizajes al CLAUDE.md del proyecto.
+---
+name: cierre
+description: Cierre estructurado de sesión que persiste los aprendizajes de la sesión en el CLAUDE.md del proyecto. Úsalo al terminar de trabajar, cuando el usuario diga "/cierre", "cierra la sesión", "guarda lo aprendido" o quiera que la próxima sesión arranque sin perder el contexto de hoy.
+---
 
-## Workflow al invocar `/cierre`
+# Cierre de sesión con memoria
+
+Convierte el cierre de sesión en un ritual corto: revisa lo que pasó y guarda lo durable en el `CLAUDE.md` del proyecto, para que la próxima sesión no empiece en cero.
+
+## Workflow al invocar
 
 1. **Auto-pregunta honesta:** ¿Si me cierran ahora, recordaré el 100% de lo que hicimos hoy?
 

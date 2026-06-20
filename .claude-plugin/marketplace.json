@@ -1,0 +1,21 @@
+{
+  "name": "claude-cierre",
+  "owner": {
+    "name": "Jorge Rojas"
+  },
+  "metadata": {
+    "description": "Cierre de sesión con memoria: persiste lo aprendido en el CLAUDE.md del proyecto.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cierre",
+      "description": "Cierre estructurado de sesión que guarda los aprendizajes durables en el CLAUDE.md del proyecto, para que la próxima sesión arranque sin amnesia.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/cierre"
+      ]
+    }
+  ]
+}

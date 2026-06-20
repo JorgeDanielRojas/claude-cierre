@@ -23,16 +23,20 @@ Tu `CLAUDE.md` se vuelve la memoria de largo plazo del proyecto. Cada cierre lo 
 
 ## Instalación
 
-Copia `cierre.md` a la carpeta de comandos de tu proyecto (o global):
+### Opción A — como plugin (recomendado)
+
+En Claude Code:
+
+```
+/plugin marketplace add JorgeDanielRojas/claude-cierre
+/plugin install cierre@claude-cierre
+```
+
+### Opción B — copiar la skill a mano
 
 ```bash
-# Para un proyecto:
-mkdir -p .claude/commands
-cp cierre.md .claude/commands/
-
-# O global (todos los proyectos):
-mkdir -p ~/.claude/commands
-cp cierre.md ~/.claude/commands/
+mkdir -p ~/.claude/skills/cierre
+cp skills/cierre/SKILL.md ~/.claude/skills/cierre/
 ```
 
 ## Uso
